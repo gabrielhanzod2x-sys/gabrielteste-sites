@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Barbearia do Carneiro — Varginha MG | Tradição, precisão e estilo desde 2016</title>
+<meta name="description" content="Barbearia do Carneiro, em Varginha (MG). Cortes adultos e infantis, barba e prótese capilar com Thales Rodrigues, barbeiro desde 2016. Rua Santa Cruz, 207 — Centro.">
+<meta name="theme-color" content="#0a0806">
+<link rel="icon" href="assets/img/mark-carneiro.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/logo-carneiro-sm.png">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Barbearia do Carneiro">
+<meta property="og:title" content="Barbearia do Carneiro — Varginha MG">
+<meta property="og:description" content="Tradição, precisão e estilo em cada detalhe. Barbeiro desde 2016, em Varginha — MG.">
+<meta property="og:image" content="assets/img/fachada.webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="assets/img/hero-cena.webp" fetchpriority="high">
+<link rel="preload" as="image" href="assets/img/logo-carneiro.webp" fetchpriority="high">
+<link href="https://fonts.googleapis.com/css2?family=Ultra&family=Roboto+Serif:opsz,wdth,wght@144,62.5..75,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/estilo.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "Barbearia do Carneiro",
+  "image": "assets/img/fachada.webp",
+  "description": "Barbearia em Varginha (MG) com cortes masculinos, cortes infantis, barba e prótese capilar. Barbeiro Thales Rodrigues, desde 2016.",
+  "telephone": "+5535988989336",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Santa Cruz, 207 — Centro",
+    "addressLocality": "Varginha",
+    "addressRegion": "MG",
+    "postalCode": "37002-089",
+    "addressCountry": "BR"
+  },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "47" },
+  "priceRange": "R$ 10 — R$ 120",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "20:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "16:00" }
+  ]
+}
+</script>
+</head>
+
+<body>
+<div class="grao" aria-hidden="true"></div>
+<a class="pular" href="#inicio">Ir para o conteúdo</a>
+
+<!-- ═════════════ BARRA LATERAL ESQUERDA ═════════════ -->
+<button class="gatilho" type="button" aria-expanded="false" aria-controls="trilho" aria-label="Abrir menu">
+  <img src="assets/img/mark-carneiro.png" alt="" width="280" height="244" decoding="async">
+  <i aria-hidden="true"></i>
+</button>
+
+<nav class="trilho" id="trilho" aria-label="Navegação principal">
+  <a class="trilho__marca" href="#inicio" aria-label="Barbearia do Carneiro — início">
+    <img src="assets/img/logo-carneiro.webp" alt="" width="720" height="720" decoding="async">
+  </a>
+
+  <ul class="trilho__lista">
+    <li><a href="#inicio" data-spy="inicio">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10.4 12 3.6l8.5 6.8"/><path d="M5.6 8.9V19.4a1.2 1.2 0 0 0 1.2 1.2h3.5v-6h3.4v6h3.5a1.2 1.2 0 0 0 1.2-1.2V8.9"/></svg>
+      <span class="trilho__rotulo">Início</span></a></li>
+    <li><a href="#cortes" data-spy="cortes">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="6" r="2.9"/><circle cx="6" cy="18" r="2.9"/><path d="M8.2 8.2 20 20"/><path d="M20 4 8.2 15.8"/></svg>
+      <span class="trilho__rotulo">Cortes</span></a></li>
+    <li><a href="#produtos" data-spy="produtos">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.1 2.6h3.8v3h-3.8z"/><path d="M9.4 5.6h5.2"/><path d="M9.6 5.6C7.7 6.8 6.6 8.4 6.6 10.4v8.4a2.6 2.6 0 0 0 2.6 2.6h5.6a2.6 2.6 0 0 0 2.6-2.6v-8.4c0-2-1.1-3.6-3-4.8"/><rect x="9" y="12" width="6" height="5.2" rx="1"/></svg>
+      <span class="trilho__rotulo">Produtos</span></a></li>
+    <li><button type="button" class="trilho__agendar" data-agendar="Barra lateral">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.4" y="4.6" width="17.2" height="16.6" rx="2.6"/><path d="M3.4 9.8h17.2"/><path d="M8 2.6v4M16 2.6v4"/></svg>
+      <span class="trilho__rotulo">Agendar</span></button></li>
+    <li><a href="#carneiro" data-spy="carneiro">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="7.6" r="3.6"/><path d="M2.8 20.6v-1.4A4.4 4.4 0 0 1 7.2 14.8h3.6a4.4 4.4 0 0 1 4.4 4.4v1.4"/><path d="M15.6 4.2a3.6 3.6 0 0 1 0 6.9"/><path d="M18.4 14.9a4.4 4.4 0 0 1 2.8 4.1v1.6"/></svg>
+      <span class="trilho__rotulo">O Carneiro</span></a></li>
+    <li><a href="#local" data-spy="local">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.4 10.1c0 5-5.4 10-7 11.4a.7.7 0 0 1-.8 0c-1.6-1.4-7-6.4-7-11.4a7.4 7.4 0 0 1 14.8 0z"/><circle cx="12" cy="10" r="2.8"/></svg>
+      <span class="trilho__rotulo">Localização</span></a></li>
+    <li><a href="#avaliacoes" data-spy="avaliacoes">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 19.9A8.9 8.9 0 1 0 4.1 16.2L2.6 21.4z"/><path d="M8.2 10.6h7.6M8.2 14.1h4.8"/></svg>
+      <span class="trilho__rotulo">Avaliações</span></a></li>
+  </ul>
+
+  <div class="trilho__pe">
+    <a class="trilho__insta" href="https://www.instagram.com/barbeariadocarneiro/" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.9" y="2.9" width="18.2" height="18.2" rx="5.2"/><circle cx="12" cy="12" r="4.2"/><path d="M17.4 6.6h.01" stroke-width="2.6"/></svg>
+      <span class="trilho__rotulo">Instagram</span>
+    </a>
+  </div>
+
+  <button class="trilho__alca" type="button" aria-label="Mostrar menu" tabindex="-1"></button>
+</nav>
+<div class="veu" hidden></div>
+
+<main>
+
+<!-- ═════════════ 1 · APRESENTAÇÃO INICIAL ═════════════ -->
+<section class="hero" id="inicio">
+  <div class="hero__cena" aria-hidden="true"></div>
+  <div class="hero__luzes" aria-hidden="true"></div>
+
+  <div class="hero__marca">
+    <h1 class="sr">Barbearia do Carneiro — Varginha, MG. Tradição, precisão e estilo em cada detalhe.</h1>
+
+    <img class="hero__logo" src="assets/img/logo-carneiro.webp" width="720" height="720" fetchpriority="high"
+         alt="Brasão da Barbearia do Carneiro — desde 2016">
+
+    <p class="hero__lema">
+      <span>Tradição, precisão e estilo</span>
+      <em>em cada detalhe.</em>
+    </p>
+    <span class="hero__risco" aria-hidden="true"></span>
+
+    <div class="hero__agendamentos" aria-label="Opções de agendamento">
+      <a class="pilula pilula--whatsapp" href="https://wa.me/5535988989336" target="_blank" rel="noopener noreferrer">
+        <span class="pilula__glifo" aria-hidden="true">
+          <img src="assets/img/whatsapp.webp" width="38" height="38" alt="">
+        </span>
+        Agendar pelo WhatsApp
+        <span class="pilula__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="M13.5 6.5 20 12l-6.5 5.5"/></svg></span>
+      </a>
+
+      <a class="pilula pilula--appbarber" href="https://sites.appbarber.com.br/barbeariadocarn-qkom" target="_blank" rel="noopener noreferrer" aria-label="Agendar on-line pelo AppBarber">
+        <span class="pilula__appbarber" aria-hidden="true">
+          <img src="assets/img/barbeiro-appbarber.webp" width="42" height="42" alt="">
+        </span>
+        <span class="pilula__appbarber-texto">Agendar pelo AppBarber</span>
+      </a>
+    </div>
+
+    <p class="nota">
+      <strong>5,0</strong>
+      <span class="nota__estrela" aria-hidden="true">★</span>
+      <span class="nota__ponto" aria-hidden="true">·</span>
+      <span>47 avaliações no Google</span>
+    </p>
+  </div>
+
+  <!-- carrossel de avaliações reais do Google -->
+  <div class="depo" id="avaliacoes" data-carrossel data-auto="7000" data-desl="66"
+       aria-roledescription="carrossel" aria-label="Avaliações reais de clientes no Google Maps">
+    <div class="palco palco--depo">
+      <button class="seta seta--ant" type="button" data-ir="-1" aria-label="Avaliação anterior">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.3 5 7.9 12l6.4 7"/></svg>
+      </button>
+
+      <ul class="pista" data-pista>
+        <li class="lam" data-lam>
+          <article class="fala">
+            <header class="fala__topo">
+              <img class="fala__foto" src="assets/img/avaliador-1.webp" width="112" height="112" loading="lazy" decoding="async" alt="">
+              <span class="fala__quem">
+                <b>Alexandre R Schulze</b>
+                <i>Local Guide · 72 avaliações · 69 fotos</i>
+              </span>
+            </header>
+            <p class="fala__nota">
+              <span class="fala__estrelas" role="img" aria-label="5 de 5 estrelas">★★★★★</span>
+              <span class="fala__quando">Editado 4 anos atrás</span>
+            </p>
+            <p class="fala__texto">O atendimento é excepcional, o preço é justo e o Carneiro é uma profissional excelente, sempre atualizado, cortês e detalhista. O corte sempre sai perfeito. É possível agendar seu horário pelo aplicativo AppBarber, é fácil, rápido e prático.</p>
+            <button class="fala__ver" type="button"
+                    data-print="assets/img/avaliacao-1-alexandre.webp"
+                    aria-label="Ver o print original da avaliação de Alexandre R Schulze no Google">
+              Ver no Google
+            </button>
+          </article>
+        </li>
+        <li class="lam" data-lam>
+          <article class="fala">
+            <header class="fala__topo">
+              <img class="fala__foto" src="assets/img/avaliador-2.webp" width="112" height="112" loading="lazy" decoding="async" alt="">
+              <span class="fala__quem">
+                <b>Reginaldo Oliveira</b>
+                <i>Local Guide · 18 avaliações · 23 fotos</i>
+              </span>
+            </header>
+            <p class="fala__nota">
+              <span class="fala__estrelas" role="img" aria-label="5 de 5 estrelas">★★★★★</span>
+              <span class="fala__quando">2 anos atrás</span>
+            </p>
+            <p class="fala__texto">Bom demais, preço justo e serviço perfeito indico com 5 estrelas</p>
+            <button class="fala__ver" type="button"
+                    data-print="assets/img/avaliacao-2-reginaldo.webp"
+                    aria-label="Ver o print original da avaliação de Reginaldo Oliveira no Google">
+              Ver no Google
+            </button>
+          </article>
+        </li>
+        <li class="lam" data-lam>
+          <article class="fala">
+            <header class="fala__topo">
+              <img class="fala__foto" src="assets/img/avaliador-3.webp" width="112" height="112" loading="lazy" decoding="async" alt="">
+              <span class="fala__quem">
+                <b>Gilmar Ferreira</b>
+                <i>6 avaliações · 3 fotos</i>
+              </span>
+            </header>
+            <p class="fala__nota">
+              <span class="fala__estrelas" role="img" aria-label="5 de 5 estrelas">★★★★★</span>
+              <span class="fala__quando">3 anos atrás</span>
+            </p>
+            <p class="fala__texto">Ótimo atendimento. Excelente profissional</p>
+            <button class="fala__ver" type="button"
+                    data-print="assets/img/avaliacao-3-gilmar.webp"
+                    aria-label="Ver o print original da avaliação de Gilmar Ferreira no Google">
+              Ver no Google
+            </button>
+          </article>
+        </li>
+        <li class="lam" data-lam>
+          <article class="fala">
+            <header class="fala__topo">
+              <img class="fala__foto" src="assets/img/avaliador-4.webp" width="112" height="112" loading="lazy" decoding="async" alt="">
+              <span class="fala__quem">
+                <b>Flávio Lima</b>
+                <i>Local Guide · 222 avaliações · 321 fotos</i>
+              </span>
+            </header>
+            <p class="fala__nota">
+              <span class="fala__estrelas" role="img" aria-label="5 de 5 estrelas">★★★★★</span>
+              <span class="fala__quando">5 anos atrás</span>
+            </p>
+            <p class="fala__texto">Excepcional… O melhor profissional da cidade.</p>
+            <button class="fala__ver" type="button"
+                    data-print="assets/img/avaliacao-4-flavio.webp"
+                    aria-label="Ver o print original da avaliação de Flávio Lima no Google">
+              Ver no Google
+            </button>
+          </article>
+        </li>
+        <li class="lam" data-lam>
+          <article class="fala">
+            <header class="fala__topo">
+              <img class="fala__foto" src="assets/img/avaliador-5.webp" width="112" height="112" loading="lazy" decoding="async" alt="">
+              <span class="fala__quem">
+                <b>Marcos Claudino</b>
+                <i>Local Guide · 14 avaliações · 3 fotos</i>
+              </span>
+            </header>
+            <p class="fala__nota">
+              <span class="fala__estrelas" role="img" aria-label="5 de 5 estrelas">★★★★★</span>
+              <span class="fala__quando">2 anos atrás</span>
+            </p>
+            <p class="fala__texto">Ótimo profissional</p>
+            <button class="fala__ver" type="button"
+                    data-print="assets/img/avaliacao-5-marcos.webp"
+                    aria-label="Ver o print original da avaliação de Marcos Claudino no Google">
+              Ver no Google
+            </button>
+          </article>
+        </li>
+      </ul>
+
+      <button class="seta seta--prox" type="button" data-ir="1" aria-label="Próxima avaliação">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.7 5l6.4 7-6.4 7"/></svg>
+      </button>
+    </div>
+    <div class="pontos" data-pontos role="tablist" aria-label="Escolher avaliação"></div>
+    <p class="depo__fonte">Avaliações públicas do Google Maps <em>toque para ampliar</em></p>
+  </div>
+</section>
+
+
+<!-- ═════════════ 2 · CONHEÇA O CARNEIRO ═════════════ -->
+<section class="carneiro" id="carneiro" aria-labelledby="t-carneiro">
+  <figure class="carneiro__foto">
+    <img src="assets/img/thales.webp" width="980" height="980" loading="lazy" decoding="async"
+         alt="Thales Rodrigues em frente à fachada da Barbearia do Carneiro, segurando o certificado de melhor do ano de 2022.">
+  </figure>
+
+  <div class="carneiro__texto">
+    <div class="carneiro__col">
+
+      <p class="olho olho--curto" data-ar><span>Conheça o Carneiro</span></p>
+
+      <h2 class="titulo titulo--nome" id="t-carneiro" data-ar>
+        <span class="gasto">Thales</span>
+        <em class="gasto">Rodrigues</em>
+      </h2>
+
+      <p class="cracha cracha--largo" data-ar>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6.1" cy="17.9" r="2.5"/><circle cx="6.1" cy="6.1" r="2.5"/><path d="M8.2 7.7 19.6 18.3"/><path d="M8.2 16.3 19.6 5.7"/></svg>
+        <span>Barbeiro desde 2016</span>
+      </p>
+
+      <div class="prosa prosa--carneiro" data-ar>
+        <p>Levo cada atendimento com <b>muita seriedade.</b></p>
+        <p>Estou sempre buscando evoluir, participando<br> de eventos e novos cursos para entregar o<br> <b>meu melhor em cada detalhe.</b></p>
+        <p>Aqui, muitos chegam como clientes e saem<br> <b>como amigos.</b></p>
+      </div>
+
+      <div class="premio" data-ar>
+        <img class="premio__cert" src="assets/img/certificado.webp" width="560" height="408" loading="lazy" decoding="async"
+             alt="Certificado Prêmio 2022 concedido à Barbearia do Carneiro.">
+        <span class="premio__tacas" aria-hidden="true">
+          <img src="assets/img/trofeu-premio.webp" width="88" height="88" alt="">
+        </span>
+        <p class="premio__texto">
+          Melhor do ano<br>
+          Atendimento e<br>
+          Qualidade <em>2022</em>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ 3 · CORTES (ADULTOS / INFANTIL) ═════════════ -->
+<section class="cortes" id="cortes" aria-labelledby="t-cortes">
+
+  <header class="cortes__cabeca">
+    <!-- adultos -->
+    <div class="cortes__cab" data-cab="adultos">
+      <p class="olho" data-ar><span>Escolha o seu estilo</span></p>
+      <h2 class="titulo titulo--linha" id="t-cortes" data-ar>
+        <span class="gasto">Cortes</span> <em class="gasto">adultos</em>
+      </h2>
+    </div>
+    <!-- infantil -->
+    <div class="cortes__cab" data-cab="infantil" hidden>
+      <span class="ursinho" data-ar aria-hidden="true">
+        <svg viewBox="0 0 24 24"><circle cx="6.4" cy="6.2" r="2.4"/><circle cx="17.6" cy="6.2" r="2.4"/><path d="M19 13.6a7 7 0 1 1-14 0 7 7 0 0 1 14 0z"/><circle cx="9.9" cy="12.5" r=".85" fill="currentColor" stroke="none"/><circle cx="14.1" cy="12.5" r=".85" fill="currentColor" stroke="none"/><path d="M12 15.1v1"/><path d="M10.4 17.5c.9.7 2.3.7 3.2 0"/></svg>
+      </span>
+      <h2 class="titulo titulo--linha" data-ar>
+        <span class="gasto">Cortes</span> <em class="gasto">infantis</em>
+      </h2>
+      <p class="sub" data-ar>Estilo e cuidado para os pequenos</p>
+    </div>
+
+    <!-- alternador -->
+    <div class="alterna" role="tablist" aria-label="Tipo de corte">
+      <span class="alterna__pino" aria-hidden="true"></span>
+      <button type="button" role="tab" id="aba-adultos" aria-controls="painel-adultos" aria-selected="true" data-aba="adultos">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7.9" r="3.4"/><path d="M5 20.4c0-3.8 3.1-6 7-6s7 2.2 7 6"/></svg>
+        Adultos
+      </button>
+      <button type="button" role="tab" id="aba-infantil" aria-controls="painel-infantil" aria-selected="false" tabindex="-1" data-aba="infantil">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6.4" cy="6.2" r="2.4"/><circle cx="17.6" cy="6.2" r="2.4"/><path d="M19 13.6a7 7 0 1 1-14 0 7 7 0 0 1 14 0z"/><circle cx="9.9" cy="12.5" r=".85" fill="currentColor" stroke="none"/><circle cx="14.1" cy="12.5" r=".85" fill="currentColor" stroke="none"/><path d="M10.4 17.5c.9.7 2.3.7 3.2 0"/></svg>
+        Infantil
+      </button>
+    </div>
+  </header>
+
+  <!-- ░░ painel ADULTOS ░░ -->
+  <div class="cortes__painel" id="painel-adultos" role="tabpanel" aria-labelledby="aba-adultos" tabindex="0">
+    <div class="cortes__grade">
+
+      <div class="galeria" data-ar data-carrossel data-desl="64" aria-roledescription="carrossel" aria-label="Cortes adultos feitos na barbearia">
+        <div class="palco palco--cortes">
+          <button class="seta seta--ant" type="button" data-ir="-1" aria-label="Corte anterior">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.3 5 7.9 12l6.4 7"/></svg>
+          </button>
+          <ul class="pista" data-pista>
+            <li class="lam" data-lam><figure class="quadro"><img src="assets/img/corte-adulto-1.webp" width="920" height="920" loading="lazy" decoding="async" alt="Corte masculino curto com laterais em degradê e barba aparada, de perfil." data-ampliar></figure></li>
+            <li class="lam" data-lam><figure class="quadro"><img src="assets/img/corte-adulto-2.webp" width="920" height="920" loading="lazy" decoding="async" alt="Corte social feito na tesoura, com acabamento limpo na nuca." data-ampliar></figure></li>
+            <li class="lam" data-lam><figure class="quadro"><img src="assets/img/corte-adulto-3.webp" width="920" height="920" loading="lazy" decoding="async" alt="Topete modelado com degradê navalhado nas laterais." data-ampliar></figure></li>
+            <li class="lam" data-lam><figure class="quadro"><img src="assets/img/corte-adulto-4.webp" width="920" height="920" loading="lazy" decoding="async" alt="Corte curto com acabamento na navalha e barba desenhada." data-ampliar></figure></li>
+            <li class="lam" data-lam><figure class="quadro"><img src="assets/img/corte-adulto-5.webp" width="920" height="920" loading="lazy" decoding="async" alt="Corte com volume no topo e transição limpa nas laterais." data-ampliar></figure></li>
+          </ul>
+          <button class="seta seta--prox" type="button" data-ir="1" aria-label="Próximo corte">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.7 5l6.4 7-6.4 7"/></svg>
+          </button>
+        </div>
+        <div class="pontos" data-pontos role="tablist" aria-label="Escolher corte"></div>
+      </div>
+
+      <aside class="cardapio" data-ar aria-labelledby="t-servicos">
+        <h3 class="cardapio__titulo" id="t-servicos">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6.1" cy="17.9" r="2.5"/><circle cx="6.1" cy="6.1" r="2.5"/><path d="M8.2 7.7 19.6 18.3"/><path d="M8.2 16.3 19.6 5.7"/></svg>
+          <span>Nossos serviços</span>
+        </h3>
+
+        <div class="cardapio__rolo" tabindex="0" data-lenis-prevent>
+          <p class="cardapio__faixa">Cabelo</p>
+          <dl class="cardapio__lista">
+            <div><dt>Corte simples / degradê <i>60 min</i></dt><span aria-hidden="true"></span><dd>R$ 40</dd></div>
+            <div><dt>Corte degradê navalhado <i>60 min</i></dt><span aria-hidden="true"></span><dd>R$ 42</dd></div>
+            <div><dt>Corte social na tesoura <i>60 min</i></dt><span aria-hidden="true"></span><dd>R$ 40</dd></div>
+            <div><dt>Corte raspado na navalha <i>30 min</i></dt><span aria-hidden="true"></span><dd>R$ 35</dd></div>
+            <div><dt>Corte simples raspado na máquina <i>30 min</i></dt><span aria-hidden="true"></span><dd>R$ 32</dd></div>
+          </dl>
+
+          <p class="cardapio__faixa">Cabelo + barba</p>
+          <dl class="cardapio__lista">
+            <div><dt>Cabelo + barba lenhador <i>120 min</i></dt><span aria-hidden="true"></span><dd>R$ 60</dd></div>
+            <div><dt>Cabelo + barba lenhador + sobrancelha <i>120 min</i></dt><span aria-hidden="true"></span><dd>R$ 67</dd></div>
+            <div><dt>Cabelo + barba serrada <i>90 min</i></dt><span aria-hidden="true"></span><dd>R$ 60</dd></div>
+            <div><dt>Cabelo + barba serrada + sobrancelha <i>90 min</i></dt><span aria-hidden="true"></span><dd>R$ 67</dd></div>
+          </dl>
+
+          <p class="cardapio__faixa">Barba e acabamentos</p>
+          <dl class="cardapio__lista">
+            <div><dt>Barba desenhada <i>60 min</i></dt><span aria-hidden="true"></span><dd>R$ 35</dd></div>
+            <div><dt>Barba raspada <i>30 min</i></dt><span aria-hidden="true"></span><dd>R$ 30</dd></div>
+            <div><dt>Bigode <i>15 min</i></dt><span aria-hidden="true"></span><dd>R$ 10</dd></div>
+            <div><dt>Pezinho <i>15 min</i></dt><span aria-hidden="true"></span><dd>R$ 15</dd></div>
+            <div><dt>Sobrancelha <i>15 min</i></dt><span aria-hidden="true"></span><dd>R$ 15</dd></div>
+          </dl>
+        </div>
+
+        <div class="cardapio__acoes">
+          <button class="btn btn--vazado" type="button" data-agendar="Catálogo adultos">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.4 6.6h15.2M4.4 12h15.2M4.4 17.4h15.2"/></svg>
+            Ver catálogo completo
+          </button>
+          <button class="btn btn--cheio" type="button" data-agendar="Escolher meu corte">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6.1" cy="17.9" r="2.5"/><circle cx="6.1" cy="6.1" r="2.5"/><path d="M8.2 7.7 19.6 18.3"/><path d="M8.2 16.3 19.6 5.7"/></svg>
+            Escolher meu corte
+            <span class="btn__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9.7 5l6.4 7-6.4 7"/></svg></span>
+          </button>
+        </div>
+      </aside>
+    </div>
+
+    <!-- antes e depois (material aprovado da pasta "antes e depois") -->
+    <div class="transforma" data-ar>
+      <div class="transforma__texto">
+        <p class="olho olho--curto"><span>Transformação real</span></p>
+        <h3>Da primeira<br>à última <em>navalha</em>.</h3>
+        <p class="transforma__linha">Cabelo e barba trabalhados no mesmo atendimento, respeitando o formato do rosto e o estilo de quem senta na cadeira.</p>
+      </div>
+      <div class="transforma__par">
+        <figure class="quadro quadro--par">
+          <img src="assets/img/transformacao-antes.webp" width="820" height="820" loading="lazy" decoding="async" alt="Antes: cliente com cabelo e barba brancos longos, sem acabamento." data-ampliar>
+        </figure>
+        <span class="transforma__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h15"/><path d="M13.5 6.5 20 12l-6.5 5.5"/></svg></span>
+        <figure class="quadro quadro--par">
+          <img src="assets/img/transformacao-depois.webp" width="820" height="820" loading="lazy" decoding="async" alt="Depois: o mesmo cliente com cabelo e barba aparados e desenhados." data-ampliar>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <!-- ░░ painel INFANTIL ░░ -->
+  <div class="cortes__painel" id="painel-infantil" role="tabpanel" aria-labelledby="aba-infantil" tabindex="0" hidden>
+    <div class="cortes__grade">
+
+      <div class="galeria" data-ar data-carrossel data-desl="80" aria-roledescription="carrossel" aria-label="Cortes infantis feitos na barbearia">
+        <div class="palco palco--cortes palco--alto">
+          <button class="seta seta--ant" type="button" data-ir="-1" aria-label="Corte anterior">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.3 5 7.9 12l6.4 7"/></svg>
+          </button>
+          <ul class="pista" data-pista>
+            <li class="lam" data-lam><figure class="quadro"><img src="assets/img/corte-infantil-1.webp" width="820" height="1024" loading="lazy" decoding="async" alt="Menino com corte social penteado para o lado e risco desenhado na lateral." data-ampliar></figure></li>
+            <li class="lam" data-lam><figure class="quadro"><img src="assets/img/corte-infantil-2.webp" width="820" height="1024" loading="lazy" decoding="async" alt="Criança com desenho geométrico raspado na lateral do cabelo." data-ampliar></figure></li>
+            <li class="lam" data-lam><figure class="quadro"><img src="assets/img/corte-infantil-3.webp" width="820" height="1024" loading="lazy" decoding="async" alt="Menino ruivo com corte curto e degradê bem acabado." data-ampliar></figure></li>
+          </ul>
+          <button class="seta seta--prox" type="button" data-ir="1" aria-label="Próximo corte">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.7 5l6.4 7-6.4 7"/></svg>
+          </button>
+        </div>
+        <div class="pontos" data-pontos role="tablist" aria-label="Escolher corte infantil"></div>
+      </div>
+
+      <aside class="cardapio cardapio--infantil" data-ar>
+        <span class="cardapio__ursinho" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="6.4" cy="6.2" r="2.4"/><circle cx="17.6" cy="6.2" r="2.4"/><path d="M19 13.6a7 7 0 1 1-14 0 7 7 0 0 1 14 0z"/><circle cx="9.9" cy="12.5" r=".85" fill="currentColor" stroke="none"/><circle cx="14.1" cy="12.5" r=".85" fill="currentColor" stroke="none"/><path d="M12 15.1v1"/><path d="M10.4 17.5c.9.7 2.3.7 3.2 0"/></svg>
+        </span>
+        <h3 class="cardapio__chamada">Um corte feito<br>para <em>cada estilo</em>.</h3>
+        <p class="cardapio__sub">Atendimento com paciência,<br>cuidado e atenção a cada detalhe.</p>
+
+        <div class="cardapio__acoes">
+          <button class="btn btn--vazado" type="button" data-agendar="Catálogo infantil">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.4 6.6h15.2M4.4 12h15.2M4.4 17.4h15.2"/></svg>
+            Ver catálogo completo
+          </button>
+          <button class="btn btn--cheio" type="button" data-agendar="Agendar infantil">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.6" y="5.1" width="16.8" height="15.3" rx="2.2"/><path d="M3.6 9.9h16.8"/><path d="M8 3.4v3.3M16 3.4v3.3"/></svg>
+            Agendar horário
+            <span class="btn__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9.7 5l6.4 7-6.4 7"/></svg></span>
+          </button>
+        </div>
+        <p class="cardapio__nota">Valores dos cortes infantis confirmados no atendimento.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ 4 · PRÓTESE CAPILAR ═════════════ -->
+<section class="protese" id="protese" aria-labelledby="t-protese">
+  <img class="marca-dagua" src="assets/img/mark-carneiro.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+
+  <div class="protese__grade">
+
+    <div class="video" data-video>
+      <div class="video__moldura">
+        <video class="video__fonte" poster="assets/img/protese-poster.webp" preload="none"
+               muted playsinline loop width="558" height="984"
+               aria-label="Vídeo real de um atendimento de prótese capilar na Barbearia do Carneiro."
+               data-src="assets/video/protese.mp4"></video>
+
+        <button class="video__assistir" type="button" aria-label="Reproduzir o vídeo da prótese capilar">
+          <span class="video__play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 6.2v11.6l9-5.8z" fill="currentColor" stroke="none"/></svg></span>
+          <span class="video__texto">Assista</span>
+        </button>
+
+        <button class="video__som" type="button" aria-pressed="false" aria-label="Ativar som do vídeo" hidden>
+          <svg class="is-mudo" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.4L12 5.6v12.8L7.4 14.5H4z"/><path d="M16.2 9.6 20.4 14M20.4 9.6 16.2 14"/></svg>
+          <svg class="is-som" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.4L12 5.6v12.8L7.4 14.5H4z"/><path d="M15.4 9.3a3.6 3.6 0 0 1 0 5.4"/><path d="M17.9 7a7 7 0 0 1 0 10"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="protese__texto">
+      <p class="olho" data-ar><span>Soluções para calvície</span></p>
+      <h2 class="titulo" id="t-protese" data-ar>
+        <span class="gasto">Prótese</span>
+        <em class="gasto">capilar</em>
+      </h2>
+
+      <p class="selo" data-ar>Não é só cabelo. <em>É autoestima.</em></p>
+
+      <div class="prosa prosa--larga" data-ar>
+        <p>Voltar a se reconhecer no espelho <b>muda tudo</b>.</p>
+        <p>A prótese capilar não é apenas sobre cabelo — é sobre <b>recuperar a confiança, sorrir novamente e viver cada momento com mais segurança</b>.</p>
+      </div>
+
+      <div class="gratuita" data-ar>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.6" y="5.1" width="16.8" height="15.3" rx="2.2"/><path d="M3.6 9.9h16.8"/><path d="M8 3.4v3.3M16 3.4v3.3"/><path d="M8.9 14.5l2 2 4.3-4.3"/></svg>
+        <div>
+          <h3>Avaliação <em>gratuita</em></h3>
+          <p>Entendemos seu caso, seu estilo e sua rotina para indicar uma solução personalizada para você.</p>
+        </div>
+      </div>
+
+      <button class="btn btn--cheio btn--largo" type="button" data-agendar="Avaliação prótese" data-ar>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.6" y="5.1" width="16.8" height="15.3" rx="2.2"/><path d="M3.6 9.9h16.8"/><path d="M8 3.4v3.3M16 3.4v3.3"/></svg>
+        Agendar avaliação gratuita
+        <span class="btn__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9.7 5l6.4 7-6.4 7"/></svg></span>
+      </button>
+
+      <p class="protese__nota" data-ar>No catálogo: <b>Manutenção de prótese capilar — R$ 120,00</b> · 240 min</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ 5 · PRODUTOS ═════════════ -->
+<section class="produtos" id="produtos" aria-labelledby="t-produtos">
+  <img class="marca-dagua marca-dagua--baixa" src="assets/img/mark-carneiro.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+
+  <div class="produtos__grade">
+
+    <div class="produtos__fotos">
+      <figure class="quadro quadro--grande" data-ar>
+        <img src="assets/img/produto-pomadas.webp" width="1040" height="746" loading="lazy" decoding="async"
+             alt="Coleção de pomadas Barber Style na barbearia: modeladora, platinada, perolada, finalizadora e teia." data-ampliar>
+      </figure>
+      <div class="produtos__duo">
+        <figure class="quadro" data-ar>
+          <img src="assets/img/produto-prateleira.webp" width="900" height="692" loading="lazy" decoding="async"
+               alt="Prateleiras da barbearia com shampoos, géis, pomadas e loções profissionais organizados por linha." data-ampliar>
+        </figure>
+        <figure class="quadro" data-ar>
+          <img src="assets/img/produto-barba.webp" width="900" height="679" loading="lazy" decoding="async"
+               alt="Linha de cuidados para barba: shampoo de barba, balm de barba, óleo de barba e loção pós-barba." data-ampliar>
+        </figure>
+      </div>
+    </div>
+
+    <div class="produtos__texto">
+      <p class="olho" data-ar><span>Barbearia do Carneiro</span></p>
+      <h2 class="titulo titulo--solo" id="t-produtos" data-ar><span class="gasto">Produtos</span></h2>
+      <p class="selo" data-ar>Qualidade <em>comprovada</em> em cada detalhe.</p>
+      <div class="prosa prosa--larga" data-ar>
+        <p>Aqui, usamos produtos profissionais escolhidos para transformar cada cuidado em uma <b>experiência especial</b>.</p>
+      </div>
+      <p class="produtos__fecho" data-ar>Mais que cuidado.<br><em>Uma experiência.</em></p>
+
+      <div class="poscorte" data-ar>
+        <p class="poscorte__olho">Cuidado pós-corte</p>
+        <p class="poscorte__titulo">Homem se cuida, <em>sim.</em></p>
+        <p>O corte não termina quando você levanta da cadeira. Lavar com o produto certo, hidratar a barba e finalizar do jeito certo é o que mantém o resultado bonito por muito mais tempo.</p>
+        <p>Aqui a gente quebra esse paradigma de que homem não se cuida: <b>cuidar da aparência é cuidar de você</b> — e a gente te ensina o que usar em casa.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- vitrine 3D (modelos .glb aprovados na pasta PRODUTOS) -->
+  <div class="vitrine" data-vitrine>
+    <div class="vitrine__cabeca" data-ar>
+      <h3><span class="gasto">Detalhes em 3D</span></h3>
+      <p>Explore de perto os produtos que fazem parte do seu cuidado.</p>
+    </div>
+
+    <div class="vitrine__palco">
+      <div class="vitrine__plinto" data-ar>
+        <div class="peca" data-peca
+             data-modelo="assets/models/balm-de-barba.glb"
+             data-alt="Modelo tridimensional de um tubo de balm de barba. Arraste para girar.">
+          <img class="peca__previa" src="assets/img/produto-barba.webp" width="900" height="679" loading="lazy" decoding="async"
+               alt="Linha de cuidados para barba da Barbearia do Carneiro">
+          <span class="peca__carga" hidden><i aria-hidden="true"></i>Carregando</span>
+        </div>
+        <p class="peca__nome">Balm de barba</p>
+      </div>
+
+      <div class="vitrine__plinto" data-ar>
+        <div class="peca" data-peca
+             data-modelo="assets/models/potes-pomada.glb"
+             data-alt="Modelo tridimensional de potes de pomada. Arraste para girar.">
+          <img class="peca__previa" src="assets/img/produto-pomadas.webp" width="1040" height="746" loading="lazy" decoding="async"
+               alt="Coleção de pomadas da Barbearia do Carneiro">
+          <span class="peca__carga" hidden><i aria-hidden="true"></i>Carregando</span>
+        </div>
+        <p class="peca__nome">Potes de pomada</p>
+      </div>
+
+      <span class="vitrine__bancada" aria-hidden="true"></span>
+    </div>
+
+    <div class="vitrine__pe">
+      <button class="btn btn--vazado" type="button" data-explorar>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.3 19.8 7.7v8.6L12 20.7 4.2 16.3V7.7z"/><path d="M4.2 7.7 12 12.1l7.8-4.4M12 12.1v8.6"/></svg>
+        Explorar em 3D
+      </button>
+      <p class="vitrine__dica" data-instrucao hidden>Arraste para girar · role para aproximar · as setas do teclado também funcionam</p>
+      <p class="vitrine__dica vitrine__dica--erro" data-fallback hidden>Para girar os produtos em 3D, abra o site pelo atalho <b>ABRIR SITE</b> (ou por um endereço http). O navegador bloqueia 3D em páginas abertas direto do arquivo.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ 6 · LOCALIZAÇÃO E CONTATOS ═════════════ -->
+<section class="local" id="local" aria-labelledby="t-local">
+  <img class="marca-dagua marca-dagua--local" src="assets/img/mark-carneiro.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+
+  <div class="local__grade">
+
+    <figure class="fachada" data-ar>
+      <img src="assets/img/fachada.webp" width="1100" height="1100" loading="lazy" decoding="async"
+           alt="Fachada da Barbearia do Carneiro: parede de tijolinho com o logo pintado, toldo e porta de vidro aberta." data-ampliar>
+      <figcaption>
+        <i aria-hidden="true"></i>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.8s6.3-5.9 6.3-10.8a6.3 6.3 0 1 0-12.6 0c0 4.9 6.3 10.8 6.3 10.8z"/><circle cx="12" cy="9.8" r="2.4"/></svg>
+        <span>Venha nos visitar</span>
+        <i aria-hidden="true"></i>
+      </figcaption>
+    </figure>
+
+    <div class="local__texto">
+      <p class="olho olho--curto" data-ar><span>Barbearia do Carneiro</span></p>
+      <h2 class="titulo titulo--encontre" id="t-local" data-ar>
+        <span class="gasto">Encontre a</span>
+        <em class="gasto">Barbearia do Carneiro</em>
+      </h2>
+
+      <div class="dados" data-ar>
+        <div class="dados__item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.8s6.3-5.9 6.3-10.8a6.3 6.3 0 1 0-12.6 0c0 4.9 6.3 10.8 6.3 10.8z"/><circle cx="12" cy="9.8" r="2.4"/></svg>
+          <p>R. Santa Cruz, 207 • Centro<br>Varginha - MG • 37002-089</p>
+        </div>
+        <span class="dados__risco" aria-hidden="true"></span>
+        <div class="dados__item dados__item--horas">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.4"/><path d="M12 7.2V12l3.2 2"/></svg>
+          <p>Terça a sexta • 08h às 20h<br>Sábado • 08h às 16h</p>
+        </div>
+      </div>
+
+      <a class="fone" href="tel:+5535988989336" data-ar>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.3 16.5v2.6a1.8 1.8 0 0 1-2 1.8 17.5 17.5 0 0 1-7.6-2.7 17.2 17.2 0 0 1-5.3-5.3A17.5 17.5 0 0 1 2.7 5.2a1.8 1.8 0 0 1 1.8-2h2.6a1.8 1.8 0 0 1 1.8 1.5c.1.9.3 1.7.6 2.5a1.8 1.8 0 0 1-.4 1.9l-1.1 1.1a14 14 0 0 0 5.3 5.3l1.1-1.1a1.8 1.8 0 0 1 1.9-.4c.8.3 1.6.5 2.5.6a1.8 1.8 0 0 1 1.5 1.9z"/></svg>
+        (35) 98898-9336
+      </a>
+
+      <div class="contatos" data-ar>
+        <a class="contato contato--insta" href="https://www.instagram.com/barbeariadocarneiro/" target="_blank" rel="noopener noreferrer">
+          <span class="contato__glifo" aria-hidden="true">
+            <svg viewBox="0 0 48 48">
+              <defs><linearGradient id="g-insta" x1="6" y1="44" x2="42" y2="4" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#feda75"/><stop offset=".28" stop-color="#fa7e1e"/>
+                <stop offset=".55" stop-color="#d62976"/><stop offset=".8" stop-color="#962fbf"/>
+                <stop offset="1" stop-color="#4f5bd5"/></linearGradient></defs>
+              <rect x="5" y="5" width="38" height="38" rx="11" fill="none" stroke="url(#g-insta)" stroke-width="4.2"/>
+              <circle cx="24" cy="24" r="8.6" fill="none" stroke="url(#g-insta)" stroke-width="4.2"/>
+              <circle cx="34.6" cy="13.4" r="2.6" fill="url(#g-insta)" stroke="none"/>
+            </svg>
+          </span>
+          <span class="contato__texto"><b>Instagram</b><i>@barbeariadocarneiro</i></span>
+          <span class="contato__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9.7 5l6.4 7-6.4 7"/></svg></span>
+        </a>
+
+        <a class="contato contato--zap" href="https://wa.me/5535988989336" target="_blank" rel="noopener noreferrer">
+          <span class="contato__glifo" aria-hidden="true">
+            <svg viewBox="0 0 48 48">
+              <path d="M24 4.5C13.2 4.5 4.5 13.2 4.5 24c0 3.5.9 6.8 2.6 9.8L4.4 43.6l10.1-2.6c2.9 1.6 6.1 2.4 9.5 2.4 10.8 0 19.5-8.7 19.5-19.5S34.8 4.5 24 4.5z" fill="#25d366" stroke="#fff" stroke-width="2.4" stroke-linejoin="round"/>
+              <path d="M17.6 14.6c.5-.1 1 0 1.3.5l1.8 3.6c.2.5.2 1-.1 1.4l-1.2 1.6c-.3.4-.3.9-.1 1.3 1.3 2.5 3.3 4.5 5.8 5.8.4.2.9.2 1.3-.1l1.6-1.2c.4-.3.9-.3 1.4-.1l3.6 1.8c.5.3.7.8.5 1.3-.6 2-2.4 3.3-4.4 3.3-6.8 0-13.9-7.1-13.9-13.9 0-2 1.3-3.8 3.3-4.4z" fill="#fff" stroke="none"/>
+            </svg>
+          </span>
+          <span class="contato__texto"><b>WhatsApp</b></span>
+          <span class="contato__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9.7 5l6.4 7-6.4 7"/></svg></span>
+        </a>
+
+        <a class="contato contato--app" href="https://sites.appbarber.com.br/barbeariadocarn-qkom" target="_blank" rel="noopener noreferrer">
+          <span class="contato__glifo" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.6" y="5.1" width="16.8" height="15.3" rx="2.2"/><path d="M3.6 9.9h16.8"/><path d="M8 3.4v3.3M16 3.4v3.3"/></svg></span>
+          <span class="contato__texto contato__texto--app"><i>Agendar on-line</i><b>AppBarber</b></span>
+          <span class="contato__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9.7 5l6.4 7-6.4 7"/></svg></span>
+        </a>
+      </div>
+
+      <div class="mapa" data-ar>
+        <iframe
+          title="Mapa com a localização da Barbearia do Carneiro — Rua Santa Cruz, 207, Centro, Varginha — MG"
+          src="https://www.google.com/maps?q=Rua%20Santa%20Cruz%2C%20207%20-%20Centro%2C%20Varginha%20-%20MG%2C%2037002-089&output=embed&z=16"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a class="mapa__abrir" href="https://www.google.com/maps/search/?api=1&query=Rua%20Santa%20Cruz%2C%20207%20-%20Centro%2C%20Varginha%20-%20MG%2C%2037002-089" target="_blank" rel="noopener noreferrer">
+          <svg class="mapa__pino" viewBox="0 0 24 34" aria-hidden="true">
+            <path d="M12 1C5.9 1 1 5.9 1 12c0 8.3 11 21 11 21s11-12.7 11-21C23 5.9 18.1 1 12 1z" fill="#ea4335" stroke="none"/>
+            <path d="M12 1C5.9 1 1 5.9 1 12c0 2.4.9 5.1 2.3 7.9L12 12z" fill="#4285f4" stroke="none"/>
+            <path d="M3.3 19.9C6 25.6 12 33 12 33l3.6-10.4L12 12z" fill="#34a853" stroke="none"/>
+            <path d="M12 1c-3 0-5.8 1.2-7.8 3.2L12 12l7.8-7.8C17.8 2.2 15 1 12 1z" fill="#fbbc04" stroke="none"/>
+            <circle cx="12" cy="12" r="4" fill="#fff" stroke="none"/>
+          </svg>
+          <span>Abrir no Google Maps</span>
+          <span class="contato__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9.7 5l6.4 7-6.4 7"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═════════════ ASSINATURA FINAL ═════════════ -->
+<footer class="rodape">
+  <img class="rodape__logo" src="assets/img/logo-carneiro.webp" width="720" height="720" loading="lazy" decoding="async" alt="Barbearia do Carneiro">
+  <p class="rodape__desde">Desde 2016 · Varginha — MG</p>
+  <nav class="rodape__elos" aria-label="Links do rodapé">
+    <a href="#inicio">Início</a>
+    <a href="#carneiro">O Carneiro</a>
+    <a href="#cortes">Cortes</a>
+    <a href="#protese">Prótese capilar</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#local">Localização</a>
+  </nav>
+  <p class="rodape__fecho">Barbearia do Carneiro · Thales Rodrigues · Rua Santa Cruz, 207 — Centro · (35) 98898-9336</p>
+</footer>
+
+<!-- ═════════════ ESCOLHA DE CANAL DE AGENDAMENTO ═════════════ -->
+<dialog class="agenda" id="agenda" aria-labelledby="t-agenda">
+  <form method="dialog">
+    <button class="agenda__x" value="fechar" aria-label="Fechar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </form>
+  <div class="agenda__corpo">
+    <img class="agenda__marca" src="assets/img/mark-carneiro.png" alt="" aria-hidden="true" width="58" height="50">
+    <p class="olho olho--curto"><span>Barbearia do Carneiro</span></p>
+    <h2 id="t-agenda">Como você prefere <em>agendar</em>?</h2>
+
+    <div class="agenda__opcoes">
+      <a class="agenda__opcao" href="https://wa.me/5535988989336" target="_blank" rel="noopener noreferrer">
+        <span class="contato__glifo contato__glifo--zap" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.6" fill="currentColor" stroke="none"/><path d="M7.6 16.6l.7-2.5a4.7 4.7 0 1 1 1.8 1.7z" fill="#0a0806" stroke="none"/><path d="M10.2 9.4c.17-.06.35 0 .46.17l.52.81c.06.12.06.29 0 .4l-.29.41c-.06.12-.06.23 0 .35a3.5 3.5 0 0 0 1.22 1.21c.12.06.23.06.35 0l.4-.29c.12-.6.29-.6.4 0l.81.52c.17.12.23.29.17.46-.12.4-.52.75-.98.75-1.68 0-3.65-1.96-3.65-3.64 0-.46.35-.92.75-1.04z" fill="#0a0806" stroke="none"/></svg></span>
+        <span class="agenda__texto"><b>Agendar pelo WhatsApp</b><i>Conversa direta com a barbearia</i></span>
+        <span class="contato__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9.7 5l6.4 7-6.4 7"/></svg></span>
+      </a>
+
+      <a class="agenda__opcao" href="https://sites.appbarber.com.br/barbeariadocarn-qkom" target="_blank" rel="noopener noreferrer">
+        <span class="contato__glifo" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.6" y="5.1" width="16.8" height="15.3" rx="2.2"/><path d="M3.6 9.9h16.8"/><path d="M8 3.4v3.3M16 3.4v3.3"/><path d="M8.9 14.5l2 2 4.3-4.3"/></svg></span>
+        <span class="agenda__texto"><b>Agendar on-line</b><i>Horários livres e catálogo no AppBarber</i></span>
+        <span class="contato__seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9.7 5l6.4 7-6.4 7"/></svg></span>
+      </a>
+    </div>
+
+    <p class="agenda__rodape">Terça a sexta 08h — 20h · Sábado 08h — 16h</p>
+  </div>
+</dialog>
+
+<!-- ═════════════ AMPLIAÇÃO DE IMAGEM ═════════════ -->
+<dialog class="lupa" id="lupa" aria-label="Imagem ampliada">
+  <form method="dialog">
+    <button class="lupa__x" value="fechar" aria-label="Fechar imagem">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </form>
+  <figure><img alt="" data-lupa-img><figcaption data-lupa-txt></figcaption></figure>
+</dialog>
+
+<script src="assets/js/lenis.min.js" defer></script>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>

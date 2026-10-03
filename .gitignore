@@ -1,0 +1,12 @@
+# Materiais de trabalho e originais pesados: ficam só no computador
+desgner final/
+referencias/
+claud ordens/
+ativos-originais/
+.claude/
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+node_modules/
