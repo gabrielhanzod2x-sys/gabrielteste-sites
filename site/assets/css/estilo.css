@@ -937,8 +937,32 @@ a{color:inherit;text-decoration:none}
   box-shadow:0 0 14px rgba(245,150,33,.35);
 }
 .prosa--carneiro p{margin:0 0 .5em;white-space:nowrap}
+.prosa--carneiro .prosa__autor{white-space:normal}
 .prosa--carneiro p:last-child{margin-bottom:0}
 .prosa--carneiro b{color:var(--ambar);font-weight:700}
+
+/* apresentação em terceira pessoa, antes da fala do Thales */
+.apresenta{
+  width:100%;
+  margin-top:clamp(14px,2.2vh,26px);
+  font-size:clamp(.9rem, min(1.08vw, 1.9vh), 1.18rem);
+  line-height:1.55;color:var(--creme-2);
+  text-align:center;text-wrap:pretty;
+}
+.apresenta p{margin:0 0 .65em}
+.apresenta p:last-child{margin-bottom:0}
+.apresenta b{color:var(--creme);font-weight:700}
+
+/* a fala vem entre aspas, com a assinatura de quem falou */
+.prosa--fala{margin-top:clamp(14px,2.2vh,26px)}
+.prosa--fala p:first-child{font-style:italic}
+.prosa__autor{
+  margin-top:.9em!important;
+  font-size:.62em;font-style:normal;
+  letter-spacing:.3em;text-transform:uppercase;
+  color:var(--ouro);font-weight:600;
+}
+.prosa__autor::before{content:"— "}
 
 .premio{
   display:flex;align-items:center;
@@ -967,6 +991,7 @@ a{color:inherit;text-decoration:none}
   font-weight:600;color:var(--creme);
 }
 .premio__texto em{font-style:normal;color:var(--ambar)}
+@media (min-width:761px){.premio__texto{white-space:nowrap;font-size:clamp(.86rem, min(1.3vw, 2.3vh), 1.4rem)}}
 
 
 /* ---------- 9. SEÇÃO · CORTES ---------- */

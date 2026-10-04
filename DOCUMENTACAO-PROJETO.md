@@ -419,3 +419,13 @@ que fica fora do site e do repositório.
 `.github/workflows/publicar-site.yml`, que publica só a pasta `site/`. Os originais
 (`desgner final/`, `referencias/`, `claud ordens/`) ficam fora do repositório (`.gitignore`).
 Esta documentação saiu de `site/` para a raiz, para não ficar pública no endereço do site.
+
+### 04/10/2026 — seção do Thales: apresentação e fala entre aspas
+
+**O que mudou:** acima do texto do Thales entrou um texto de apresentação em terceira pessoa (barbeiro
+desde 2016; começou jovem; incertezas e dúvidas ao abrir o negócio; esforço e ajuda de Deus; 10 anos de
+certificados, cursos e aperfeiçoamentos; referência em corte e qualidade em Varginha). O texto que já
+existia ficou **intacto, entre aspas**, com a assinatura “— Thales Rodrigues”, porque é fala dele.
+**Por quê:** pedido do cliente. **Como:** blocos `.apresenta` e `.prosa--fala` em `index.html`/`estilo.css`.
+**Preservar:** nenhuma frase da fala do Thales foi alterada; a apresentação usa só o que o cliente contou
+(sem números de cursos ou certificados inventados). O texto do prêmio ficou com linhas travadas no desktop.
