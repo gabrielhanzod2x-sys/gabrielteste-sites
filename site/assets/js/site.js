@@ -643,6 +643,8 @@ var lenis = null;
         var mv = document.createElement('model-viewer');
         mv.setAttribute('src', p.dataset.modelo);
         mv.setAttribute('alt', p.dataset.alt || '');
+        mv.setAttribute('loading', 'eager');
+        mv.setAttribute('reveal', 'auto');
         mv.setAttribute('camera-controls', '');
         mv.setAttribute('touch-action', 'pan-y');
         mv.setAttribute('shadow-intensity', '1.1');
@@ -687,14 +689,26 @@ var lenis = null;
              (navigator.connection.saveData ||
               /2g/.test(navigator.connection.effectiveType || ''));
 
-  if (!econ && 'IntersectionObserver' in window) {
-    new IntersectionObserver(function (ents, o) {
-      ents.forEach(function (en) {
-        if (!en.isIntersecting) return;
-        o.disconnect();
-        montar();
-      });
-    }, { rootMargin: '260px 0px' }).observe(vitrine);
+  if (!econ) {
+    /* Carrega em segundo plano logo depois que a página abre (sem atrapalhar
+       o início): quando a pessoa chega na vitrine, os modelos já estão prontos. */
+    var cedo = function () {
+      if ('requestIdleCallback' in window) window.requestIdleCallback(montar, { timeout: 4000 });
+      else setTimeout(montar, 2500);
+    };
+    if (document.readyState === 'complete') setTimeout(cedo, 1200);
+    else window.addEventListener('load', function () { setTimeout(cedo, 1200); }, { once: true });
+
+    /* garantia: se ainda não começou e a pessoa já está perto, começa agora */
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (ents, o) {
+        ents.forEach(function (en) {
+          if (!en.isIntersecting) return;
+          o.disconnect();
+          montar();
+        });
+      }, { rootMargin: '2000px 0px' }).observe(vitrine);
+    }
   }
 })();
 
